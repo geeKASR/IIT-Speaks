@@ -1,0 +1,21 @@
+.posts-parent-container{
+    width : 100%;
+    padding-top : 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.large6{
+    font-size : 2.5em;
+    margin-bottom : 10px;
+    color : #0074B7;
+}
+.posts-container{
+    /* background-color: red; */
+    padding-top: 30px;
+    width : 60%;
+    max-width: 750px;
+    /* height : 100vh; */
+}

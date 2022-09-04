@@ -1,0 +1,17 @@
+.profiles-container{
+    /* background-color: red; */
+    /* background-image: url('./back-ground.gif.webp'); */
+    padding-top: 75px;
+    margin : 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.large2{
+    font-size: 3em;
+    margin-bottom: 8px;
+}
+
+

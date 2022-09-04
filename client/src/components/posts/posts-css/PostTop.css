@@ -1,0 +1,73 @@
+.post-top-container{
+    width: 80%;
+    background-color: #f5f5f5;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    max-width: 750px;
+    padding: 20px;
+    margin-top : 20px;
+}
+
+.post-top-heading {
+    max-width: 100%;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+    padding-bottom: 5px;
+    margin: 5px 0;
+    margin-bottom: 15px;
+}
+
+.post-top-heading h1 {
+    padding: 0;
+    margin: 0;
+}
+
+
+.post-top-text{
+    max-width: 100%;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px 0px inset, rgba(0, 0, 0, 0.1) 0px 0px 2px 0px inset;
+}
+
+.post-top-created{
+    padding-top: 0;
+    font-size: 0.8em;
+}
+
+.post-top-image{
+    margin : 10px 0;
+    max-width: 100%;
+}
+
+.post-top-buttons button{
+    margin : 15px;
+    padding: 10px;
+    min-width: 100px;
+    border: none;
+}
+
+.post-top-like{
+    font-size : 2em;
+    transition: all 0.2 ease;
+}
+
+.post-top-dislike{
+    font-size : 2em;
+    transition: all 0.2 ease;
+}
+
+.post-top-like:active{
+    font-size : 2.5em;
+}
+.post-top-dislike:active{
+    font-size : 2.5em;
+}
+
+.like-button{
+    color: green;
+}
+
+.dislike-button{
+    color: red;
+}

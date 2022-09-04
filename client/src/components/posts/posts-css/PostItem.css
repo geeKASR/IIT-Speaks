@@ -1,0 +1,146 @@
+.post-container{
+    /* background-color: aqua; */
+    /* box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;    padding: 20px; */
+    /* box-sizing:content-box; */
+    border: 3px solid #cfc6ae;
+    
+    padding: 15px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+
+}
+.post-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(115, 115, 115);
+    width: 100%;
+}
+
+.post-heading h1{
+    max-width: 350px;
+    font-size : 1.5em;
+    overflow: hidden;
+}
+
+
+.post-info{
+    display: flex;
+    padding: 0;
+}
+
+.post-image{
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.post-name{
+    text-align: center;
+    font-size : 0.8em;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.post-image{
+    font-weight: 500;
+}
+.post-profile-photo{
+    height : 5em;
+    margin : 5px;
+    border-radius: 5px;
+}
+
+.post-text{
+    width : 85%;
+    padding-left: 40px;
+    align-self: center;
+}
+
+.post-text-content{
+    background-color: 	#EFEBE0;
+    max-width: 590px;
+    max-height: 200px;
+}
+.post-text-content p{
+    max-width: 100%;
+    max-height: 200px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.post-date{
+    font-size: small;
+    color:rgb(55, 55, 55);
+}
+
+.post-buttons{
+    margin: 10px 0;
+    width : 100%;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.like{
+    color: green;
+}
+
+.dislike{
+    color: red;
+}
+
+.comment{
+    color : blue;
+}
+
+.post-buttons button{
+    padding: 5px;
+    margin : 0 20px;
+    border: none;
+    font-size: 1.25em;
+}
+
+.view-post-button{
+    box-sizing: border-box;
+    height : 20%;
+    padding : 8px;
+    margin : 5px;
+    border-radius: 5px;
+    background-color: rgb(33, 33, 33);
+    border: none;
+    color: #fff;
+    transition: all 0.15s ease;
+}
+
+.view-post-button:hover{
+    font-weight: 500;
+    background-color: 	#FAF9F6;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;    color: black;
+}
+.view-post-button:active{
+    transform: translateY(5px);
+}
+
+.remove-post-button{
+    box-sizing: border-box;
+    height : 20%;
+    padding : 8px;
+    margin : 5px;
+    border-radius: 5px;
+    background-color: rgb(33, 33, 33);
+    border: none;
+    color: #fff;
+    transition: all 0.15s ease;
+}
+
+.remove-post-button:hover{
+    font-weight: 500;
+    background-color: 	red;
+    /* border: 1px solid black; */
+}
+.remove-post-button:active{
+    transform: translateY(5px);
+}

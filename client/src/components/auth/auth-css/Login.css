@@ -1,0 +1,143 @@
+.login {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url('./background_blurred.png');
+}
+
+.login-container {
+    background-color: #fff;
+    /* height: 60%; */
+
+    padding : 40px 20px;
+    padding-top : 10px;
+
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.large {
+    font-size: 2em;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
+.text-primary {
+    color: #0074B7;
+}
+
+.lead {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.form {
+    width: 600px
+}
+
+.form-group {
+    padding: 0;
+    width: 80%;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-group input {
+    width: 100%;
+    margin: 0;
+}
+
+.form-group:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.my-1 {
+    margin-top: 10px;
+}
+
+.button-container {
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button-container-container {
+    width : 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFF;
+}
+
+.btn {
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 45px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+
+.btn-primary {
+    background-color: #000;
+    border-radius: 5px;
+    color: #FFF;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    color: black;
+    border: 2px solid #000;
+    background-color: #FFF;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:after {
+    background: #FFF;
+    border: 0px solid #000;
+    height: 155px;
+    left: -75px;
+    opacity: .8;
+    position: absolute;
+    top: -50px;
+    -webkit-transform: rotate(35deg);
+    transform: rotate(35deg);
+    width: 50px;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    z-index: 1;
+}
+
+.btn-primary:hover:after {
+    background: #FFF;
+    border: 20px solid #000;
+    opacity: 0;
+    left: 120%;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+}

@@ -1,0 +1,43 @@
+.navbar-head{
+    position: absolute;
+    width: 98%;
+    margin : 5px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    height : 70px;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color-blue{
+    color : #0074B7;
+}
+
+.navbar-head a{
+    color : #0074B7;
+    text-decoration: none;
+}
+
+.navbar-head h1 a{
+    margin-left: 50px;
+}
+.navbar-head ul{
+    width : 40%px;
+    margin : 0;
+    padding : 0;
+    display: flex;
+    justify-content:space-between;
+    justify-self: flex-end;
+}
+.navbar-head ul li{
+    list-style: none;
+    height : 75%;
+    flex-grow: 1;
+    padding-left : 25px;
+    padding-right : 25px;
+    border-left: 2px solid #0074B7;
+}

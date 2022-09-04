@@ -1,0 +1,5 @@
+{
+  "mongoURI" : "mongodb://localhost:27017/test",
+  "allowedEmailDomain" : "itbhu.ac.in",
+  "jwtSecret" : "4f5cf67bfd69a069039cf562bfc347bfc9d86a03ef6fb82d6e97516a5a3243f5726ea5892bbda13f4605ed5499c4f0748f5d266ba4ed0cd360a5eb14bc00733d408e1a23ce21cfc7f00a29ab15fe77a7578428be3dc7b2adfb54fa4202c2d85c4d970fa9060d192c91f7fb5854ff2d099e01c6dfa1fadd2bfe1416ae5db5a9d68e378dc8a58cda6e476c4bc6de3677f84563b48e2746d5b304a65e62603ac455"
+}
